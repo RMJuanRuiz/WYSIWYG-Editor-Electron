@@ -1,6 +1,13 @@
 # WYSIWYG Editor
 WYSIWYG Editor Desktop App using Electron, Angular and ngx-wig library.
 
+![wysiwyg-editor](https://github.com/RMJuanRuiz/WYSIWYG-Editor-Electron-App/assets/49765252/4e83dd7a-6059-4a00-9c06-9438a473980a)
+
+To generate the executable file for your SO, clone the repository and run the following commands:  <br>  <br>
+`npm run build:electron` : Build the current angular/electron project  <br>
+`npm run package`: Generate the executable file into the folder dist/wysiwyg-editor-{OS} where {OS} is the OS where you run the command.  <br>  <br> For example, for windows the folder generated could be something like dist/wysiwyg-editor-win32-x64 or in MAC dist/wysiwyg-editor-darwin-arm64.
+ 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
 
 ## Development server
