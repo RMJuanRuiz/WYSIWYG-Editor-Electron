@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "start:desktop": "concurrently \"ng build --delete-output-path=false --watch\" \"webpack --config webpack.dev.config.js --watch\"",
-    "build:electron": "ng build && webpack --config webpack.prod.config.js"
+    "build:electron": "ng build && webpack --config webpack.prod.config.js",
+    "package": "electron-packager dist/wysiwyg-editor --out=dist --asar"
   },
   "private": true,
   "dependencies": {
@@ -21,6 +22,7 @@
     "@angular/platform-browser-dynamic": "^16.2.0",
     "@angular/router": "^16.2.0",
     "concurrently": "^8.2.1",
+    "electron-packager": "^17.1.2",
     "ngx-electronyzer": "^1.0.1",
     "ngx-wig": "^16.0.0",
     "rxjs": "~7.8.0",
