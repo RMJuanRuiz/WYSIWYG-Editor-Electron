@@ -1,4 +1,5 @@
-# WysiwygEditor
+# WYSIWYG Editor
+WYSIWYG Editor Desktop App using Electron, Angular and ngx-wig library.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
 
